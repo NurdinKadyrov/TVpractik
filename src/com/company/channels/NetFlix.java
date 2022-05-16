@@ -22,7 +22,7 @@ public class NetFlix extends Television {
                 +------------------------------+
                 |                              |
                 |                              |
-                |         NetFlixTV            |
+                |         NetFixTV             |
                 |                              |
                 |                              |
                 +------------------------------+

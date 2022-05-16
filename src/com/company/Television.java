@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class Television {
     private int currentChannel;
     private String nameOfChannel;
-    public int counter = 0;
-    public int counterOff = 1;
+    private int counter = 0;
+    private int counterOff = 1;
 
     public Television() {
     }
@@ -107,7 +107,7 @@ public class Television {
                 if (counterOff == 1) {
                     counterOff--;
                     System.err.println(" Out of working ! Clik ( 0 )!!!");
-                } else if (counter == 0) {
+                } else if (counterOff == 0) {
                     counterOff++;
                     if (counter == 1) {
                         netFlix.netFlix();
